@@ -28,7 +28,23 @@ struct WaterfallView: View {
     
     var body: some View {
         ScrollView{
+            WfHeader(loadState: $userData.isLoading, reloadDelegate: reloadSelected)
+                .environmentObject(userData)
+                .padding(.bottom, 8)
+                .zIndex(100.0)
             
+            Picker(selection: $userData.currentLabel, label: Text("Mode"), content: /*@START_MENU_TOKEN@*/{
+                ForEach(UserData.WfLabel.allCases, id: \.self){ type in
+                    Text(type.rawValue)
+                }
+            }/*@END_MENU_TOKEN@*/)
+            .pickerStyle(SegmentedPickerStyle())
+            .frame(width: 300)
+            .zIndex(100)
+            
+            WfLoaderList(apodType: userData.currentLabel, contents: selectedContent)
+                .padding(.top, 24)
+                .opacity(userData.isLoading ? 0.6 : 1)
         }
     }
 }

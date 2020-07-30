@@ -17,6 +17,11 @@
 		ADFFCACE24D27C5600B67636 /* ApodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAC924D27C5600B67636 /* ApodResult.swift */; };
 		ADFFCACF24D27C5600B67636 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCACA24D27C5600B67636 /* UserData.swift */; };
 		ADFFCAD024D27C5600B67636 /* UserDefaults+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCACB24D27C5600B67636 /* UserDefaults+Helper.swift */; };
+		ADFFCAD224D2908700B67636 /* WfHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAD124D2908700B67636 /* WfHeader.swift */; };
+		ADFFCAD424D2975500B67636 /* WfLoaderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAD324D2975500B67636 /* WfLoaderList.swift */; };
+		ADFFCAD824D29B9100B67636 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAD724D29B9100B67636 /* Placeholder.swift */; };
+		ADFFCADA24D2A48400B67636 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAD924D2A48400B67636 /* ModalView.swift */; };
+		ADFFCADC24D2A79A00B67636 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCADB24D2A79A00B67636 /* AsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		ADFFCAC924D27C5600B67636 /* ApodResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApodResult.swift; sourceTree = "<group>"; };
 		ADFFCACA24D27C5600B67636 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		ADFFCACB24D27C5600B67636 /* UserDefaults+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helper.swift"; sourceTree = "<group>"; };
+		ADFFCAD124D2908700B67636 /* WfHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WfHeader.swift; sourceTree = "<group>"; };
+		ADFFCAD324D2975500B67636 /* WfLoaderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WfLoaderList.swift; sourceTree = "<group>"; };
+		ADFFCAD724D29B9100B67636 /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
+		ADFFCAD924D2A48400B67636 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		ADFFCADB24D2A79A00B67636 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,8 @@
 				ADFFCAB524D27AE900B67636 /* APODApp.swift */,
 				ADFFCAB724D27AE900B67636 /* ContentView.swift */,
 				ADFFCAC424D27B8C00B67636 /* WaterfallView.swift */,
+				ADFFCAD924D2A48400B67636 /* ModalView.swift */,
+				ADFFCAD624D297AC00B67636 /* Components */,
 				ADFFCAB924D27AEB00B67636 /* Assets.xcassets */,
 				ADFFCABE24D27AEB00B67636 /* Info.plist */,
 				ADFFCABB24D27AEB00B67636 /* Preview Content */,
@@ -93,6 +105,17 @@
 				ADFFCACB24D27C5600B67636 /* UserDefaults+Helper.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ADFFCAD624D297AC00B67636 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ADFFCAD124D2908700B67636 /* WfHeader.swift */,
+				ADFFCAD324D2975500B67636 /* WfLoaderList.swift */,
+				ADFFCAD724D29B9100B67636 /* Placeholder.swift */,
+				ADFFCADB24D2A79A00B67636 /* AsyncImage.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +193,13 @@
 				ADFFCAB824D27AE900B67636 /* ContentView.swift in Sources */,
 				ADFFCAB624D27AE900B67636 /* APODApp.swift in Sources */,
 				ADFFCACE24D27C5600B67636 /* ApodResult.swift in Sources */,
+				ADFFCADA24D2A48400B67636 /* ModalView.swift in Sources */,
 				ADFFCAD024D27C5600B67636 /* UserDefaults+Helper.swift in Sources */,
 				ADFFCACD24D27C5600B67636 /* ApodRequest.swift in Sources */,
+				ADFFCAD824D29B9100B67636 /* Placeholder.swift in Sources */,
+				ADFFCAD224D2908700B67636 /* WfHeader.swift in Sources */,
+				ADFFCADC24D2A79A00B67636 /* AsyncImage.swift in Sources */,
+				ADFFCAD424D2975500B67636 /* WfLoaderList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

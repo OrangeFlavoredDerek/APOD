@@ -9,12 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("APOD").padding()
+        TabView{
+            WaterfallView()
+                .environmentObject(UserData.shared)
+                .tabItem {
+                    VStack{
+                        Image(systemName: "skew")
+                        Text("APOD")
+                    }
+                }
+                .tag(1)
+        }
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+#endif

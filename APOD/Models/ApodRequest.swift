@@ -66,7 +66,7 @@ struct ApodRequest {
         case Empty
     }
     
-    static private let requestUrl: URL = URL(string: "https://api.nasa.gov/planetary/apod")!
+    static private let requestUrl: URL = URL(string: "https://api.nasa.gov/planetary/apod?api_key=ahA1xMQMdyr1eZ6kzAlTs74x2ubIl92YVTeXYwix")!
     
     private var formatter: DateFormatter {
         let df = DateFormatter()
