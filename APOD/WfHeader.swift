@@ -20,7 +20,7 @@ struct WfHeader: View {
     var reloadDelegate: () -> ()
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(currentDateStr.uppercased())//显示当前日期
                 .font(.subheadline)
                 .bold()

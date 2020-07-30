@@ -19,6 +19,16 @@ struct ContentView: View {
                     }
                 }
                 .tag(1)
+            
+            SettingView()
+                .environmentObject(UserSetting.shared)
+                .tabItem {
+                    VStack{
+                        Image(systemName: "gear")
+                        Text("Setting")
+                    }
+                }
+                .tag(2)
         }
     }
 }

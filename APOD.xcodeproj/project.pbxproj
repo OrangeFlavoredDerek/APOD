@@ -22,6 +22,11 @@
 		ADFFCAD824D29B9100B67636 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAD724D29B9100B67636 /* Placeholder.swift */; };
 		ADFFCADA24D2A48400B67636 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAD924D2A48400B67636 /* ModalView.swift */; };
 		ADFFCADC24D2A79A00B67636 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCADB24D2A79A00B67636 /* AsyncImage.swift */; };
+		ADFFCADF24D2B09400B67636 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCADE24D2B09400B67636 /* WebView.swift */; };
+		ADFFCAE124D2B58D00B67636 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAE024D2B58D00B67636 /* SettingView.swift */; };
+		ADFFCAE324D2B66B00B67636 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAE224D2B66B00B67636 /* TextEditor.swift */; };
+		ADFFCAE724D2BDB400B67636 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAE524D2BDB400B67636 /* Background.swift */; };
+		ADFFCAE924D2BEEB00B67636 /* WfApodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAE824D2BEEB00B67636 /* WfApodCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		ADFFCAD724D29B9100B67636 /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
 		ADFFCAD924D2A48400B67636 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		ADFFCADB24D2A79A00B67636 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		ADFFCADE24D2B09400B67636 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		ADFFCAE024D2B58D00B67636 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		ADFFCAE224D2B66B00B67636 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
+		ADFFCAE524D2BDB400B67636 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		ADFFCAE824D2BEEB00B67636 /* WfApodCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WfApodCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 				ADFFCAB724D27AE900B67636 /* ContentView.swift */,
 				ADFFCAC424D27B8C00B67636 /* WaterfallView.swift */,
 				ADFFCAD924D2A48400B67636 /* ModalView.swift */,
+				ADFFCAE024D2B58D00B67636 /* SettingView.swift */,
 				ADFFCAD624D297AC00B67636 /* Components */,
 				ADFFCAB924D27AEB00B67636 /* Assets.xcassets */,
 				ADFFCABE24D27AEB00B67636 /* Info.plist */,
@@ -110,10 +121,14 @@
 		ADFFCAD624D297AC00B67636 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				ADFFCAE524D2BDB400B67636 /* Background.swift */,
+				ADFFCAE824D2BEEB00B67636 /* WfApodCard.swift */,
 				ADFFCAD124D2908700B67636 /* WfHeader.swift */,
 				ADFFCAD324D2975500B67636 /* WfLoaderList.swift */,
 				ADFFCAD724D29B9100B67636 /* Placeholder.swift */,
 				ADFFCADB24D2A79A00B67636 /* AsyncImage.swift */,
+				ADFFCADE24D2B09400B67636 /* WebView.swift */,
+				ADFFCAE224D2B66B00B67636 /* TextEditor.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -191,15 +206,20 @@
 				ADFFCACC24D27C5600B67636 /* UserSetting.swift in Sources */,
 				ADFFCACF24D27C5600B67636 /* UserData.swift in Sources */,
 				ADFFCAB824D27AE900B67636 /* ContentView.swift in Sources */,
+				ADFFCAE724D2BDB400B67636 /* Background.swift in Sources */,
 				ADFFCAB624D27AE900B67636 /* APODApp.swift in Sources */,
 				ADFFCACE24D27C5600B67636 /* ApodResult.swift in Sources */,
+				ADFFCAE124D2B58D00B67636 /* SettingView.swift in Sources */,
+				ADFFCAE324D2B66B00B67636 /* TextEditor.swift in Sources */,
 				ADFFCADA24D2A48400B67636 /* ModalView.swift in Sources */,
 				ADFFCAD024D27C5600B67636 /* UserDefaults+Helper.swift in Sources */,
 				ADFFCACD24D27C5600B67636 /* ApodRequest.swift in Sources */,
 				ADFFCAD824D29B9100B67636 /* Placeholder.swift in Sources */,
 				ADFFCAD224D2908700B67636 /* WfHeader.swift in Sources */,
+				ADFFCAE924D2BEEB00B67636 /* WfApodCard.swift in Sources */,
 				ADFFCADC24D2A79A00B67636 /* AsyncImage.swift in Sources */,
 				ADFFCAD424D2975500B67636 /* WfLoaderList.swift in Sources */,
+				ADFFCADF24D2B09400B67636 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

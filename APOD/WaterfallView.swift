@@ -42,6 +42,8 @@ struct WaterfallView: View {
             .frame(width: 300)
             .zIndex(100)
             
+            
+            
             WfLoaderList(apodType: userData.currentLabel, contents: selectedContent)
                 .padding(.top, 24)
                 .opacity(userData.isLoading ? 0.6 : 1)

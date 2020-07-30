@@ -11,7 +11,7 @@ import Combine
 struct WfLoaderList: View {
     enum LoadMsgIcon: String {
         case loading = "cloud.rain"
-        case empty = "tornado"
+        case empty = "tray"
         case error = "cloud.bolt"
     }
     
