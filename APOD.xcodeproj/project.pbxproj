@@ -11,6 +11,12 @@
 		ADFFCAB824D27AE900B67636 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAB724D27AE900B67636 /* ContentView.swift */; };
 		ADFFCABA24D27AEB00B67636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFFCAB924D27AEB00B67636 /* Assets.xcassets */; };
 		ADFFCABD24D27AEB00B67636 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFFCABC24D27AEB00B67636 /* Preview Assets.xcassets */; };
+		ADFFCAC524D27B8C00B67636 /* WaterfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAC424D27B8C00B67636 /* WaterfallView.swift */; };
+		ADFFCACC24D27C5600B67636 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAC724D27C5600B67636 /* UserSetting.swift */; };
+		ADFFCACD24D27C5600B67636 /* ApodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAC824D27C5600B67636 /* ApodRequest.swift */; };
+		ADFFCACE24D27C5600B67636 /* ApodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCAC924D27C5600B67636 /* ApodResult.swift */; };
+		ADFFCACF24D27C5600B67636 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCACA24D27C5600B67636 /* UserData.swift */; };
+		ADFFCAD024D27C5600B67636 /* UserDefaults+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFFCACB24D27C5600B67636 /* UserDefaults+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		ADFFCAB924D27AEB00B67636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADFFCABC24D27AEB00B67636 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADFFCABE24D27AEB00B67636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFFCAC424D27B8C00B67636 /* WaterfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallView.swift; sourceTree = "<group>"; };
+		ADFFCAC724D27C5600B67636 /* UserSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		ADFFCAC824D27C5600B67636 /* ApodRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApodRequest.swift; sourceTree = "<group>"; };
+		ADFFCAC924D27C5600B67636 /* ApodResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApodResult.swift; sourceTree = "<group>"; };
+		ADFFCACA24D27C5600B67636 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		ADFFCACB24D27C5600B67636 /* UserDefaults+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,10 @@
 		ADFFCAB424D27AE900B67636 /* APOD */ = {
 			isa = PBXGroup;
 			children = (
+				ADFFCAC624D27C5600B67636 /* Models */,
 				ADFFCAB524D27AE900B67636 /* APODApp.swift */,
 				ADFFCAB724D27AE900B67636 /* ContentView.swift */,
+				ADFFCAC424D27B8C00B67636 /* WaterfallView.swift */,
 				ADFFCAB924D27AEB00B67636 /* Assets.xcassets */,
 				ADFFCABE24D27AEB00B67636 /* Info.plist */,
 				ADFFCABB24D27AEB00B67636 /* Preview Content */,
@@ -67,6 +81,18 @@
 				ADFFCABC24D27AEB00B67636 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADFFCAC624D27C5600B67636 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADFFCAC724D27C5600B67636 /* UserSetting.swift */,
+				ADFFCAC824D27C5600B67636 /* ApodRequest.swift */,
+				ADFFCAC924D27C5600B67636 /* ApodResult.swift */,
+				ADFFCACA24D27C5600B67636 /* UserData.swift */,
+				ADFFCACB24D27C5600B67636 /* UserDefaults+Helper.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFFCAC524D27B8C00B67636 /* WaterfallView.swift in Sources */,
+				ADFFCACC24D27C5600B67636 /* UserSetting.swift in Sources */,
+				ADFFCACF24D27C5600B67636 /* UserData.swift in Sources */,
 				ADFFCAB824D27AE900B67636 /* ContentView.swift in Sources */,
 				ADFFCAB624D27AE900B67636 /* APODApp.swift in Sources */,
+				ADFFCACE24D27C5600B67636 /* ApodResult.swift in Sources */,
+				ADFFCAD024D27C5600B67636 /* UserDefaults+Helper.swift in Sources */,
+				ADFFCACD24D27C5600B67636 /* ApodRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
